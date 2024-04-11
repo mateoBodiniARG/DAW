@@ -1,0 +1,3 @@
+Al finalizar la revisión de este contenido, ya está en condiciones de realizar el TP propuesto en el que tendrá que seleccionar una noticia actual de un diario online a elección y crear un documento HTML que posea el mismo contenido que la noticia (título, subtítulos, fecha, texto, imágenes, links, etc.) respetando los elementos semánticos de HTML y guardando el progreso en un repositorio público de Github. 
+
+Luego , les proponemos reflexionar en el foro a partir de la siguiente pregunta ¿cuáles es la importancia de un buen manejo y conocimiento de HTML para el desarrollo de una aplicacion web?
