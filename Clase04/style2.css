@@ -1,88 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    font-family: "Noto Sans Display", sans-serif;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(132 204 22);
-    color: white;
-    padding: 10px 20px;
+  background-color: rgb(132, 204, 22);
+  color: #ffffff;
+  padding: 10px 20px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 p {
-    font-size: 14px;
-    color: #666666;
-    margin: 10px 20px;
+  font-size: 14px;
+  color: #666666;
+  margin: 10px 20px;
 }
 
 h1 {
-    color: #333333;
-    font-size: 24px;
-    margin: 10px 20px;
+  color: #333333;
+  font-size: 50px;
+  margin: 10px 20px;
+  text-align: center;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+.imgEquipo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.imgRiver {
+  width: 60px;
+  height: auto;
+  vertical-align: middle;
 }
 
-.article-content {
-    background-color: white;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+svg {
+  width: 60px;
+  height: auto;
+  vertical-align: middle;
+  margin: 0 10px;
+}	
+
+article {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 h2 {
-    color: #006BB6;
-    font-size: 18px;
-    margin-bottom: 10px;
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 20px;
 }
 
 article {
-    color: #333333;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.topics {
-    margin-top: 20px;
-}
-
-.topics b {
-    color: #333333;
-    font-weight: bold;
-}
-
-.topics a {
-    color: #006BB6;
-    text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 footer {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px 0;
+  text-align: center;
+  padding: 20px 0;
 }
 
 footer img {
-    margin: 0 10px;
+  margin: 0 10px;
 }
