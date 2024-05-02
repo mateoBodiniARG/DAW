@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  background-color: rgb(132, 204, 22);
+  background-color: #e50e0e;
   color: #ffffff;
   padding: 10px 20px;
 }
@@ -32,7 +32,12 @@ h1 {
   margin: 10px 20px;
   text-align: center;
 }
-
+h3 {
+  color: #333333;
+  font-size: 40px;
+  margin: 10px 20px;
+  text-align: center;
+}
 .imgEquipo {
   display: block;
   margin: 0 auto;
@@ -41,44 +46,113 @@ h1 {
   margin-bottom: 20px;
 }
 .imgRiver {
-  width: 60px;
+  width: 50px;
   height: auto;
   vertical-align: middle;
 }
-
+.imgBorja {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.spanRiver {
+  font-size: 22px;
+  font-weight: 500;
+}
 svg {
-  width: 60px;
   height: auto;
   vertical-align: middle;
-  margin: 0 10px;
-}	
+  margin: 0px 5px 0px 170px;
+}
+.burgerNav {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 1200px;
+}
 
+.SubNav .divSubNav .contentSubNav {
+  overflow: hidden;
+}
+.SubNav .divSubNav .contentSubNav ul {
+  margin: 0;
+  padding: 0;
+}
+.SubNav .divSubNav .contentSubNav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.SubNav .divSubNav .contentSubNav li:last-child {
+  margin-right: 0;
+}
+.liNav .subnavLink {
+  color: #242f37;
+  text-decoration: none;
+}
+.noticiasLinks {
+  text-align: center;
+  background-color: #ececec;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.noticiasLinks > a {
+  color: #a84d41;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 19px;
+}
 article {
   padding: 20px;
   margin: 0 auto;
   max-width: 1400px;
 }
 
+article > ul > li > a {
+  color: #94be1f;
+}
 h2 {
   color: #333333;
-  font-size: 18px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 30px;
-  margin: 10px 20px;
+  font-size: 40px;
+  margin-left: 430px;
+  margin-right: 430px;
 }
 
 article {
   color: #333333;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
 footer {
-  text-align: center;
+  background-color: #242f37;
+  color: #ffffff;
   padding: 20px 0;
+  text-align: center;
 }
 
-footer img {
-  margin: 0 10px;
+footer {
+  background-color: #242f37;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.footer-links a:hover {
+  background-color: #ffffff;
+  color: black;
 }
